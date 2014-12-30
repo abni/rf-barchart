@@ -1,0 +1,92 @@
+[
+  {
+    "key": "RS-data",
+    "values": [
+      {
+        "label": "Andet",
+        "value": 4,
+        "series": 0
+      },
+      {
+        "label": "Caravan Camping",
+        "value": 1,
+        "series": 0
+      },
+      {
+        "label": "Get A Tent Downtown",
+        "value": 1,
+        "series": 0
+      },
+      {
+        "label": "Get A Tent Uptown",
+        "value": 1,
+        "series": 0
+      },
+      {
+        "label": "Hjemme",
+        "value": 3,
+        "series": 0
+      },
+      {
+        "label": "Medarbejdercamping",
+        "value": 19,
+        "series": 0
+      },
+      {
+        "label": "Område B",
+        "value": 17,
+        "series": 0
+      },
+      {
+        "label": "Område C",
+        "value": 38,
+        "series": 0
+      },
+      {
+        "label": "Område E",
+        "value": 11,
+        "series": 0
+      },
+      {
+        "label": "Område G",
+        "value": 20,
+        "series": 0
+      },
+      {
+        "label": "Område H",
+        "value": 9,
+        "series": 0
+      },
+      {
+        "label": "Område J, Silent and Clean",
+        "value": 15,
+        "series": 0
+      },
+      {
+        "label": "Område K",
+        "value": 3,
+        "series": 0
+      },
+      {
+        "label": "Område L",
+        "value": 20,
+        "series": 0
+      },
+      {
+        "label": "Område M",
+        "value": 6,
+        "series": 0
+      },
+      {
+        "label": "Område N",
+        "value": 13,
+        "series": 0
+      },
+      {
+        "label": "Område P",
+        "value": 13,
+        "series": 0
+      }
+    ]
+  }
+]

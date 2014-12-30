@@ -46,10 +46,13 @@ function init(data){
         transform: 'translate(' + margin.left + ',' + margin.top + ')'
     });
 
-    svg.selectAll('rect')
+    var bar = svg.selectAll('g')
         .data(data)
         .enter()
-        .append('rect')
+        .append('g')
+        ;
+
+    bar.append('rect')
         .attr({
             width:  function (d) { return xScale(d.value); },
             height: barWidth,
@@ -65,6 +68,15 @@ function init(data){
             d3.select(this).attr({
                 fill: function() { return colorScale(d.value); }
             });
+        });
+
+    bar.append('text')
+        .text( function(d) { return d.label + ' (' + d.value + '%)'; } )
+        .attr({
+            x: 1,
+            y: function (d, i) { return (barWidth + 1) * i; },
+            'text-anchor': 'start',
+            'transform': 'translate(0, ' + ((barWidth/2)+5) + ')'
         });
 
     svg.append('g')
